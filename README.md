@@ -1,6 +1,6 @@
-# Job Search Resources
+# Job Search Resource Hub
 
-> Everything you need to land your next role. Resume tips, interview prep, and job search strategies.
+> 63 tools, platforms, and strategies across 10 categories — filterable by audience, pricing, and keyword search.
 
 [![GitHub Pages](https://img.shields.io/badge/demo-live-brightgreen)](https://izzydoesizzy.github.io/job-search-resources/)
 
@@ -8,22 +8,37 @@
 
 ## What Is This?
 
-A curated, open-source collection of job search resources built from years of career coaching experience. Covers the full job search lifecycle — from resume writing and LinkedIn optimization to interview prep and salary negotiation.
+An interactive, searchable directory of job search tools and strategies built from years of career coaching experience. Covers the full job search lifecycle — from resume writing and LinkedIn optimization to interview prep, salary negotiation, networking, and AI-powered assistants.
 
-### Planned Sections
+### Features
 
-- **Resume writing** — templates, guides, and achievement frameworks (CAR/STAR)
-- **LinkedIn optimization** — profile tips, headline formulas, content strategies
-- **Job boards & search** — the best places to find opportunities by industry
-- **Networking** — cold outreach templates, informational interview scripts
-- **Interview prep** — common questions, STAR story banks, mock interview tools
-- **Salary negotiation** — scripts, research tools, and negotiation frameworks
-- **AI tools for job search** — prompts, tools, and workflows for AI-assisted searching
-- **Career transition** — guides for switching industries or roles
+- **10 categories** — Job Boards, Niche Boards, Resume & ATS, LinkedIn & Branding, Interview Prep, Application Tracking, Salary Research, Networking, AI Assistants, Strategies & Frameworks
+- **Audience filters** — Professionals, New Grads, Career Changers
+- **Pricing filters** — Free, Freemium, Paid
+- **Full-text search** — search across tool names, descriptions, and monetization notes
+- **Expandable cards** — click any tool to see full description, monetization angle, and visit link
+- **Dark mode UI** — clean, modern interface with IBM Plex Mono + Instrument Sans typography
+
+### Categories
+
+| Category | Tools |
+|----------|-------|
+| Job Boards & Discovery | LinkedIn Jobs, Indeed, Google Jobs, Glassdoor, ZipRecruiter, Wellfound |
+| Niche & Specialized | FlexJobs, We Work Remotely, Dice, Otta, Handshake, The Muse, Idealist |
+| Resume & ATS | Teal, Jobscan, Careerflow, Rezi, Kickresume, FlowCV, Enhancv |
+| LinkedIn & Branding | Creator Mode, Taplio, AuthoredUp, Shield Analytics, Portfolio Builders, AI Headshots |
+| Interview Prep | Final Round AI, Interview Sidekick, Google Warmup, Yoodli, Exponent, Big Interview, OfferGenie |
+| Tracking & CRM | Huntr, Teal Tracker, Notion Templates, Airtable, Scale.jobs, Sonara/LazyApply |
+| Salary & Negotiation | Levels.fyi, Glassdoor, Payscale, Negotiation Frameworks, Blind, Comprehensive.io |
+| Networking | Informational Interviews, Sales Navigator, Lunchclub/ADPList, Cold Templates, PitchMeAI |
+| AI Assistants | Claude/ChatGPT, Noam Segal's Coach, Sensei AI, aiApply, Career.io |
+| Strategies | 80/20 Job Search, Hidden Job Market, Resume Pipeline, STAR Mastery, and more |
 
 ## Tech Stack
 
-- HTML, CSS, JavaScript
+- React 18 (loaded via CDN)
+- Babel standalone (in-browser JSX transpilation)
+- No build step required
 - GitHub Pages
 
 ## Getting Started
@@ -44,10 +59,6 @@ open index.html
 ## Contributing
 
 Know a great job search resource? Open a PR or issue — contributions welcome!
-
-## Status
-
-🚧 Coming Soon — landing page deployed, resource collection in progress.
 
 ## License
 
